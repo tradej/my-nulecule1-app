@@ -1,0 +1,16 @@
+---
+specversion: 0.0.2
+id: my-nulecule1-app
+
+metadata:
+  name: my-nulecule1
+  appversion: 0.0.1a
+  authors: [ "" ]
+  homepage: 
+
+graph:
+  - name: my-nulecule1
+    artifacts:
+      kubernetes:
+        - file://artifacts/kubernetes/my-nulecule1-pod.yaml
+        - file://artifacts/kubernetes/my-nulecule1-service.yaml
